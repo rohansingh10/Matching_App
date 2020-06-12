@@ -21,7 +21,7 @@
         android:background="#D2FDFDFC"
         android:text="PLAY"
         android:textColor="#B129DF"
-        android:textSize="36sp"
+        android:textSize="26sp"
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,8 +50,8 @@
         app:srcCompat="@drawable/hal" />
 
     <EditText
-        android:layout_width="439dp"
-        android:layout_height="59dp"
+        android:layout_width="353dp"
+        android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
@@ -59,21 +59,17 @@
         android:background="#201919"
         android:ems="10"
         android:inputType="textPersonName"
-        android:paddingLeft="40sp"
-        android:paddingTop="10sp"
-        android:paddingRight="10sp"
-        android:paddingBottom="10sp"
-        android:text="WELCOME _ FREINDS"
+        android:text="WELCOME_FREINDS"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#B129DF"
-        android:textSize="36sp"
+        android:textSize="26sp"
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintHorizontal_bias="0.611"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
